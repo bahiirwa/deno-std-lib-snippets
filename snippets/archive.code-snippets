@@ -1,6 +1,6 @@
 {
     "deno_testdata_txt_test": {
-		"prefix": "deno_testdata_txt",
+		"prefix": "deno_testdata_txt_test",
 		"body": [
             "import { ${1:deepAssign} } from 'https://deno.land/std/archive/testdata/example.txt'"
 		],

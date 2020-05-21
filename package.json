@@ -49,6 +49,18 @@
             {
                 "language": "typescript",
                 "path": "./snippets/datetime.code-snippets"
+            },
+            {
+                "language": "typescript",
+                "path": "./snippets/encoding.code-snippets"
+            },
+            {
+                "language": "typescript",
+                "path": "./snippets/encoding-test.code-snippets"
+            },
+            {
+                "language": "toml",
+                "path": "./snippets/toml/encoding-test.code-snippets"
             }
         ]
     }
