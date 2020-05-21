@@ -6,11 +6,11 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ### 0.0.3 [21.05.2020]
 
-- Add more snippets ( Version, async - 16 in total)
+- Add more snippets ( Modules: byte, archive, datetime - 15 in total)
 
 ### 0.0.2 [21.05.2020]
 
-- Add more snippets ( Version, async - 14 in total)
+- Add more snippets ( Version, async - 7 in total)
 - Fix .code-snippets file extensions removed in 0.0.1
 
 ### 0.0.1 [21.05.2020]

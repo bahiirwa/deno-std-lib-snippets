@@ -41,6 +41,14 @@
             {
                 "language": "typescript",
                 "path": "./snippets/async.code-snippets"
+            },
+            {
+                "language": "typescript",
+                "path": "./snippets/byte.code-snippets"
+            },
+            {
+                "language": "typescript",
+                "path": "./snippets/datetime.code-snippets"
             }
         ]
     }
