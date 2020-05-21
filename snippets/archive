@@ -1,0 +1,28 @@
+{
+    "deno_testdata_txt_test": {
+		"prefix": "deno_testdata_txt",
+		"body": [
+            "https://deno.land/std/archive/testdata/example.txt"
+		],
+		"description": "Archive Library"
+    },
+    "deno_tar": {
+		"prefix": "deno_tar",
+		"body": [
+            "https://deno.land/std/archive/tar.ts"
+		],
+		"description": "Archive Library"
+    },
+    "deno_tar_test": {
+		"prefix": "deno_tar_test",
+		"body": [
+            "https://deno.land/std/archive/tar_test.ts"
+		],
+		"description": [
+			"Archive Library.",
+			"Create a tar archive in memory containing output.txt and dir/tar.ts. Read and deflate a tar archive containing output.txt. ",
+			"",
+			"Run test: deno run --allow-read archive/tar_test.ts"
+		]
+    }
+}
