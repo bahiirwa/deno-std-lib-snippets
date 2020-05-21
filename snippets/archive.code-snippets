@@ -6,10 +6,24 @@
 		],
 		"description": "Archive Module"
     },
+    "deno_tar_untar": {
+		"prefix": "deno_tar_untar",
+		"body": [
+            "import { ${1:Tar}, ${2:Untar} } from 'https://deno.land/std/archive/tar.ts'"
+		],
+		"description": "Archive Module"
+    },
     "deno_tar": {
 		"prefix": "deno_tar",
 		"body": [
-            "import { ${1:Tar}, ${2:Untar} } from 'https://deno.land/std/archive/tar.ts'"
+            "import { Tar } from 'https://deno.land/std/archive/tar.ts'"
+		],
+		"description": "Archive Module"
+    },
+    "deno_untar": {
+		"prefix": "deno_untar",
+		"body": [
+            "import { Untar } from 'https://deno.land/std/archive/tar.ts'"
 		],
 		"description": "Archive Module"
     },
