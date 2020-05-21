@@ -6,6 +6,8 @@ Standard library import autocompletions for Deno in VS Code"
 
 Type `deno_` + standard library name like `version` while importing to get available autocompletions in work.
 
+![Demo](images/deno-demo.gif)
+
 ## Install instructions
 
 Install via Extension Marketplace
