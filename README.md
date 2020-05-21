@@ -1,12 +1,12 @@
-# Deno Snippets
+# Deno Standard Library Snippets
 
 Standard library import autocompletions for Deno in VS Code"
 
-### How to use
+## How to use
 
 Type `deno_` + standard library name like `deferred` while importing to see available autocompletions in work.
 
-### Install instructions
+## Install instructions
 
 Install via Extension Marketplace
 
@@ -14,7 +14,7 @@ Install via Extension Marketplace
 -   > ext deno-std-lib-snippets
 -   Wait until install complete and restart VS Code
 
-### Features
+## Features
 
 Autocomplete for:
 
@@ -22,7 +22,7 @@ Autocomplete for:
 | -----------------| :-------: | :-------: |
 | Autocompletions  |     6     | deno_     |
 
-### Details
+## Details
 
 -   License: GPLv3
 -   Version: 0.0.1
@@ -36,9 +36,14 @@ Known issues at avaialble at the [Github Repo](https://github.com/bahiirwa/deno-
 
 ## Release Notes
 
-All notable changes to the "Deno-snippets" extension will be documented in here and in the details found in the changelog file.
+All notable changes to the "Deno Standard Library Snippets" extension will be documented in here and in the details found in the changelog file.
 
-## 0.0.1 [21.05.2020]
+### 0.0.2 [21.05.2020]
+
+- Add more snippets
+- Fix .code-snippets file extensions
+
+### 0.0.1 [21.05.2020]
 
 - Initial release
 
