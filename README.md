@@ -20,7 +20,7 @@ Autocomplete for:
 
 | Added Code       | Number    | Trigger   |
 | -----------------| :-------: | :-------: |
-| Autocompletions  |     6     | deno_     |
+| Autocompletions  |    14     | deno_     |
 
 ## Details
 
@@ -37,6 +37,10 @@ Known issues at avaialble at the [Github Repo](https://github.com/bahiirwa/deno-
 ## Release Notes
 
 All notable changes to the "Deno Standard Library Snippets" extension will be documented in here and in the details found in the changelog file.
+
+### 0.0.3 [21.05.2020]
+
+- Add more snippets
 
 ### 0.0.2 [21.05.2020]
 

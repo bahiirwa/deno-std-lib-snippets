@@ -4,9 +4,13 @@ All notable changes to the "deno-std-lib-snippets" extension will be documented 
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+### 0.0.3 [21.05.2020]
+
+- Add more snippets ( Version, async - 16 in total)
+
 ### 0.0.2 [21.05.2020]
 
-- Add more snippets ( Version, async - 7 in total)
+- Add more snippets ( Version, async - 14 in total)
 - Fix .code-snippets file extensions removed in 0.0.1
 
 ### 0.0.1 [21.05.2020]
