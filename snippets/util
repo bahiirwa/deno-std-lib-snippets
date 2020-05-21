@@ -1,4 +1,11 @@
 {
+    "deno_version": {
+		"prefix": "deno_version",
+		"body": [
+            "import { VERSION } from 'https://deno.land/std/version.ts'"
+		],
+		"description": "Get current version of Deno"
+    },
     "deno_deep_assign": {
 		"prefix": "deno_deep_assign",
 		"body": [
