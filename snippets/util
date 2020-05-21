@@ -2,21 +2,21 @@
     "deno_deep_assign": {
 		"prefix": "deno_deep_assign",
 		"body": [
-            "https://deno.land/std/_util/deep_assign.ts"
+            "import { ${1:deepAssign} } from 'https://deno.land/std/_util/deep_assign.ts'"
 		],
 		"description": "Utility Library"
     },
     "deno_deep_assign_test": {
 		"prefix": "deno_deep_assign_test",
 		"body": [
-            "https://deno.land/std/_util/deep_assign_test.ts"
+            "import { ${1:deepAssignTest} } from 'https://deno.land/std/_util/deep_assign_test.ts'"
 		],
 		"description": "Utility Library"
     },
     "deno_has_own_property": {
 		"prefix": "deno_has_own_property",
 		"body": [
-            "import { hasOwnProperty } from 'https://deno.land/std/_util/has_own_property.ts;"
+            "import { hasOwnProperty } from 'https://deno.land/std/_util/has_own_property.ts'"
 		],
 		"description": [
 			"Utility Library.",

@@ -31,11 +31,11 @@
     "contributes": {
         "snippets": [
             {
-                "language": "javascript",
+                "language": "typescript",
                 "path": "./snippets/util"
             },
             {
-                "language": "javascript",
+                "language": "typescript",
                 "path": "./snippets/archive"
             }
         ]

@@ -2,21 +2,21 @@
     "deno_testdata_txt_test": {
 		"prefix": "deno_testdata_txt",
 		"body": [
-            "https://deno.land/std/archive/testdata/example.txt"
+            "import { ${1:deepAssign} } from 'https://deno.land/std/archive/testdata/example.txt'"
 		],
 		"description": "Archive Library"
     },
     "deno_tar": {
 		"prefix": "deno_tar",
 		"body": [
-            "https://deno.land/std/archive/tar.ts"
+            "import { ${1:Tar}, ${2:Untar} } from 'https://deno.land/std/archive/tar.ts'"
 		],
 		"description": "Archive Library"
     },
     "deno_tar_test": {
 		"prefix": "deno_tar_test",
 		"body": [
-            "https://deno.land/std/archive/tar_test.ts"
+            "import { ${1:Tar} } from 'https://deno.land/std/archive/tar_test.ts'"
 		],
 		"description": [
 			"Archive Library.",
