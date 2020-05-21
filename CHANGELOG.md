@@ -6,7 +6,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ### 0.0.3 [21.05.2020]
 
-- Add more snippets ( Modules: byte, archive, datetime - 15 in total)
+- Add more snippets ( Modules: byte, archive, datetime, Encoding )
 
 ### 0.0.2 [21.05.2020]
 
