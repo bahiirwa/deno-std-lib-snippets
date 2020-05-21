@@ -11,14 +11,14 @@
 		"body": [
             "import { ${1:deepAssign} } from 'https://deno.land/std/_util/deep_assign.ts'"
 		],
-		"description": "Utility Library"
+		"description": "Utility Module"
     },
     "deno_deep_assign_test": {
 		"prefix": "deno_deep_assign_test",
 		"body": [
             "import { ${1:deepAssignTest} } from 'https://deno.land/std/_util/deep_assign_test.ts'"
 		],
-		"description": "Utility Library"
+		"description": "Utility Module"
     },
     "deno_has_own_property": {
 		"prefix": "deno_has_own_property",
@@ -26,7 +26,7 @@
             "import { hasOwnProperty } from 'https://deno.land/std/_util/has_own_property.ts'"
 		],
 		"description": [
-			"Utility Library.",
+			"Utility Module.",
 			"Determines whether an object has a property with the specified name. Avoid calling prototype builtin `hasOwnProperty` for two reasons:",
 			"",
 			"1. `hasOwnProperty` is defined on the object as something else.",

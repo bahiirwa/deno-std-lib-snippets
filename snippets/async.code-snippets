@@ -5,7 +5,7 @@
             "import { ${1:deferred}, ${2:Deferred} } from 'https://deno.land/std/async/deferred.ts'"
 		],
 		"description": [
-			"Async Library. function/Interface",
+			"Async Module. function/Interface",
 			"Creates a Promise with the `reject` and `resolve` functions placed as methods on the promise object itself."
 		]
 	},
@@ -14,34 +14,34 @@
 		"body": [
             "import { ${1:deferred_test} } from 'https://deno.land/std/async/deferred_test.ts'"
 		],
-		"description": "Async Library"
+		"description": "Async Module"
     },
 	"deno_delay": {
 		"prefix": "deno_delay",
 		"body": [
             "import { ${1:delay} } from 'https://deno.land/std/async/delay.ts'"
 		],
-		"description": "Async Library: Exports function - delay"
+		"description": "Async Module: Exports function - delay"
     },
 	"deno_mod": {
 		"prefix": "deno_mod",
 		"body": [
             "import { ${1:*} } from 'https://deno.land/std/async/mod.ts'"
 		],
-		"description": "Async Library: Exports all from deferred.ts, delay.ts. mux_async_iterator.ts"
+		"description": "Async Module: Exports all from deferred.ts, delay.ts. mux_async_iterator.ts"
     },
 	"deno_mux_async_iterator": {
 		"prefix": "deno_mux_async_iterator",
 		"body": [
             "import { ${1:MuxAsyncIterator} } from 'https://deno.land/std/async/mux_async_iterator.ts'"
 		],
-		"description": "Async Library: Exports Class MuxAsyncIterator."
+		"description": "Async Module: Exports Class MuxAsyncIterator."
     },
 	"deno_mux_async_iterator_test": {
 		"prefix": "deno_mux_async_iterator_test",
 		"body": [
             "import { ${1:*} } from 'https://deno.land/std/async/mux_async_iterator_test.ts'"
 		],
-		"description": "Async Library."
+		"description": "Async Module."
     }
 }
