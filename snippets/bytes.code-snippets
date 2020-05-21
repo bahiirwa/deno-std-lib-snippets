@@ -1,4 +1,13 @@
 {
+    "deno_mod": {
+		"prefix": "deno_mod",
+		"body": [
+            "import { ${1:findIndex}, ${2:findLastIndex}, ${3:equal}, ${4:hasPrefix}, ${5:repeat}, ${6:concat}, } from 'https://deno.land/std/bytes/mod.ts'"
+		],
+		"description": [
+			"Bytes Modules.",
+			"Bytes module is made to provide helpers to manipulation of bytes slice."]
+	},
     "deno_findIndex": {
 		"prefix": "deno_findIndex",
 		"body": [
@@ -7,7 +16,8 @@
 		"description": [
 			"Bytes Module.",
 			"Find first index of binary pattern from given binary array.",
-			"Bytes module is made to provide helpers to manipulation of bytes slice."]
+			"Bytes module is made to provide helpers to manipulation of bytes slice."
+		]
 	},
     "deno_findLastIndex": {
 		"prefix": "deno_findLastIndex",
