@@ -16,24 +16,31 @@ Install via Extension Marketplace
 
 ## Features
 
-Autocomplete for:
-
-| Added Code   | Number    | Trigger   |
-| ------------ | :-------: | :-------: |
-| Modules      |    10     | deno_     |
+Autocomplete for 14 Modules using `deno_`.
 
 Module triggers:
 
-| Module       | Trigger         |
-| ------------ | :-------:       |
-| signal       | deno_signal_    |
-| uuid         | deno_uuid_      |
-| Testing      | deno_testing_   |
+| Module       | Trigger           |
+| ------------ | :-------:         |
+| archive      | deno_archive_     |
+| async        | deno_async_       |
+| bytes        | deno_bytes_       |
+| datetime     | deno_datetime_    |
+| encoding     | deno_encoding_    |
+| node         | deno_node_        |
+| path         | deno_path_        |
+| permissions  | deno_permissions_ |
+| signal       | deno_signal_      |
+| testing      | deno_testing_     |
+| textproto    | deno_textproto_   |
+| uuid         | deno_uuid_        |
+| ws           | deno_ws_          |
+| version      | deno_version      |
 
 ## Details
 
 -   License: GPLv3
--   Version: 0.0.5
+-   Version: 0.0.7
 -   Extension URI: https://github.com/bahiirwa/deno-std-lib-snippets
 
 ## Known Issues

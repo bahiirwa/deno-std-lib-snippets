@@ -2,8 +2,9 @@
 Steps to take in the build process.
 
 ## Version 0.0.9
+- [ ] Packages without export statement to be imported only.
 - [ ] Add new packages
-    - [ ] encoding/**
+    - [ ] encoding/_yaml
     - [ ] examples
     - [ ] flags
     - [ ] fmt
@@ -13,7 +14,9 @@ Steps to take in the build process.
     - [ ] io
     - [ ] log
     - [ ] mime
-    - [ ] none
+    - [ ] node/_fs
+    - [ ] node/_util
+    - [ ] node/tests
 
 ## Version 0.1.0
 - [ ] Descriptions. Give proper descriptions and module meanings

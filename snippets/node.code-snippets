@@ -1,3 +1,116 @@
 {
-    
+    "deno_node_utils": {
+        "prefix": "deno_node_utils",
+        "body": [
+            "import { ${1:access}, ${2:accessSync}, ${3:appendFile}, ${4:appendFileSync}, ${5:chmod}, ${6:chmodSync}, ${7:chown}, ${8:chownSync}, ${9:close}, ${10:closeSync}, ${11:constants}, ${12:copyFile}, ${13:copyFileSync}, ${14:exists}, ${15:existsSync}, ${16:readFile}, ${17:readFileSync}, ${18:readlink}, ${19:readlinkSync}, ${20:mkdir}, ${21:mkdirSync}, ${22:writeFile}, ${23:writeFileSync}, ${24:promises} } from 'https://deno.land/std/node/_utils.ts'"
+        ],
+        "description": "Node Module: File System. This module is meant to have a compatibility layer for the NodeJS standard library. Warning: Any function of this module should not be referred anywhere in the deno standard library as it's a compatibility module."
+    },
+    "deno_node_events": {
+        "prefix": "deno_node_events",
+        "body": [
+            "import { ${1:WrappedFunction}, ${2:EventEmitter}, ${3:once}, ${4:on} } from 'https://deno.land/std/node/events.ts'"
+        ],
+        "description": "Node Module: File System. This module is meant to have a compatibility layer for the NodeJS standard library. Warning: Any function of this module should not be referred anywhere in the deno standard library as it's a compatibility module."
+    },
+    "deno_node_fs": {
+        "prefix": "deno_node_fs",
+        "body": [
+            "import { ${1:access}, ${2:accessSync}, ${3:appendFile}, ${4:appendFileSync}, ${5:chmod}, ${6:chmodSync}, ${7:chown}, ${8:chownSync}, ${9:close}, ${10:closeSync}, ${11:constants}, ${12:copyFile}, ${13:copyFileSync}, ${14:exists}, ${15:existsSync}, ${16:readFile}, ${17:readFileSync}, ${18:readlink}, ${19:readlinkSync}, ${20:mkdir}, ${21:mkdirSync}, ${22:writeFile}, ${23:writeFileSync}, ${24:promises} } from 'https://deno.land/std/node/global.ts'"
+        ],
+        "description": "Node Module: File System. This module is meant to have a compatibility layer for the NodeJS standard library. Warning: Any function of this module should not be referred anywhere in the deno standard library as it's a compatibility module."
+    },
+    "deno_node_global": {
+        "prefix": "deno_node_global",
+        "body": [
+            "import { ${1:*} } from 'https://deno.land/std/node/global.ts'"
+        ],
+        "description": "Node Module: Main Module. This module is meant to have a compatibility layer for the NodeJS standard library. Warning: Any function of this module should not be referred anywhere in the deno standard library as it's a compatibility module."
+    },
+    "deno_node_module": {
+        "prefix": "deno_node_module",
+        "body": [
+            "import { ${1:builtinModules}, ${2:createRequire}, ${3:Module} } from 'https://deno.land/std/node/module.ts'"
+        ],
+        "description": "Node Module: Main Module. This module is meant to have a compatibility layer for the NodeJS standard library. Warning: Any function of this module should not be referred anywhere in the deno standard library as it's a compatibility module."
+    },
+    "deno_node_os": {
+        "prefix": "deno_node_os",
+        "body": [
+            "import { ${1:arch}, ${2:cpus}, ${3:endianness}, ${4:freemem}, ${5:getPriority}, ${6:homedir}, ${7:hostname}, ${8:loadavg}, ${9:networkInterfaces}, ${10:platform}, ${11:release}, ${12:setPriority}, ${13:tmpdir}, ${14:totalmem}, ${15:type}, ${16:uptime}, ${17:userInfo}, ${18:constants}, ${19:EOL} } from 'https://deno.land/std/node/os.ts'"
+        ],
+        "description": "Node Module: Timers. This module is meant to have a compatibility layer for the NodeJS standard library. Warning: Any function of this module should not be referred anywhere in the deno standard library as it's a compatibility module."
+    },
+    "deno_node_process": {
+		"prefix": "deno_node_process",
+		"body": [
+            "import { ${1:process} } from 'https://deno.land/std/node/process.ts'"
+		],
+		"description": "Node Module: Process. This module is meant to have a compatibility layer for the NodeJS standard library. Warning: Any function of this module should not be referred anywhere in the deno standard library as it's a compatibility module."
+    },
+    "deno_node_querystring": {
+		"prefix": "deno_node_querystring",
+		"body": [
+            "import { ${1:hexTable}, ${2:encodeStr}, ${3:decode}, ${4:encode}, ${5:unescape}, ${6:escape} } from 'https://deno.land/std/node/querystring.ts'"
+		],
+		"description": "Node Module: Timers. This module is meant to have a compatibility layer for the NodeJS standard library. Warning: Any function of this module should not be referred anywhere in the deno standard library as it's a compatibility module."
+    },
+    "deno_node_timers": {
+		"prefix": "deno_node_timers",
+		"body": [
+            "import { ${1:setTimeout}, ${2:clearTimeout},${3:setInterval}, ${4:clearInterval}, ${5:setImmediate}, ${6:clearImmediate} } from 'https://deno.land/std/node/timers.ts'"
+		],
+		"description": "Node Module: Timers. This module is meant to have a compatibility layer for the NodeJS standard library. Warning: Any function of this module should not be referred anywhere in the deno standard library as it's a compatibility module."
+    },
+    "deno_node_url": {
+		"prefix": "deno_node_url",
+		"body": [
+            "import { ${1:fileURLToPath}, ${2:pathToFileURL} } from 'https://deno.land/std/node/url.ts'"
+		],
+		"description": "Node Module: URLs. This module is meant to have a compatibility layer for the NodeJS standard library. Warning: Any function of this module should not be referred anywhere in the deno standard library as it's a compatibility module."
+    },
+    "deno_node_util": {
+		"prefix": "deno_node_util",
+		"body": [
+            "import { ${1:callbackify}, ${2:isArray}, ${3:isBoolean}, ${4:isNull}, ${5:isNullOrUndefined}, ${6:isNumber}, ${7:isString}, ${8:isSymbol}, ${9:isUndefined}, ${10:isObject}, ${11:isError}, ${12:isFunction}, ${13:isRegExp}, ${14:isPrimitive}, ${15:TextEncoder}, ${16:TextDecoder}, ${17:validateIntegerRange} } from 'https://deno.land/std/node/util.ts'"
+		],
+		"description": "Node Module: Utility. This module is meant to have a compatibility layer for the NodeJS standard library. Warning: Any function of this module should not be referred anywhere in the deno standard library as it's a compatibility module."
+    },
+
+    // Tests
+    "deno_node_events_test": {
+		"prefix": "deno_node_events_test",
+		"body": [
+            "import { ${1:*} } from 'https://deno.land/std/node/events_test.ts'"
+		],
+		"description": "Node Events Test. This module is meant to have a compatibility layer for the NodeJS standard library. Warning: Any function of this module should not be referred anywhere in the deno standard library as it's a compatibility module."
+    },
+    "deno_node_module_test": {
+		"prefix": "deno_node_module_test",
+		"body": [
+            "import { ${1:*} } from 'https://deno.land/std/node/module_test.ts'"
+		],
+		"description": "Node Module Test. This module is meant to have a compatibility layer for the NodeJS standard library. Warning: Any function of this module should not be referred anywhere in the deno standard library as it's a compatibility module."
+    },
+    "deno_node_process_test": {
+		"prefix": "deno_node_process_test",
+		"body": [
+            "import { ${1:*} } from 'https://deno.land/std/node/process_test.ts'"
+		],
+		"description": "Node Module: Process test. This module is meant to have a compatibility layer for the NodeJS standard library. Warning: Any function of this module should not be referred anywhere in the deno standard library as it's a compatibility module."
+    },
+    "deno_node_querystring_test": {
+		"prefix": "deno_node_querystring_test",
+		"body": [
+            "import { ${1:*} } from 'https://deno.land/std/node/querystring_test.ts'"
+		],
+		"description": "Node Module: Utility test. This module is meant to have a compatibility layer for the NodeJS standard library. Warning: Any function of this module should not be referred anywhere in the deno standard library as it's a compatibility module."
+    },
+    "deno_node_util_test": {
+		"prefix": "deno_node_util_test",
+		"body": [
+            "import { ${1:*} } from 'https://deno.land/std/node/util_test.ts'"
+		],
+		"description": "Node Module: Utility test. This module is meant to have a compatibility layer for the NodeJS standard library. Warning: Any function of this module should not be referred anywhere in the deno standard library as it's a compatibility module."
+    },
 }
