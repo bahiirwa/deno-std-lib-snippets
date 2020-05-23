@@ -7,6 +7,8 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ### 0.0.6 [24.05.2020]
 
 - Add more snippets ( Modules: Testing, signal, permissions, path ).
+- Descriptions fix. JSON doesn't support multilines. Use one liners only.
+- Fix earlier files with correct module name after deno_ like (encoding/**, toml/**, archive, bytes, datetime, encoding, util)
 
 ### 0.0.5 [23.05.2020]
 

@@ -49,6 +49,8 @@ All notable changes to the "Deno Standard Library Snippets" extension will be do
 ### 0.0.6 [24.05.2020]
 
 - Add more snippets.
+- Descriptions fix, use liners only.
+- Fix earlier files with correct module name.
 
 ### 0.0.5 [23.05.2020]
 

@@ -4,10 +4,7 @@
 		"body": [
             "import { ${1:deferred}, ${2:Deferred} } from 'https://deno.land/std/async/deferred.ts'"
 		],
-		"description": [
-			"Async Module. function/Interface",
-			"Creates a Promise with the `reject` and `resolve` functions placed as methods on the promise object itself."
-		]
+		"description": "Async Module. function/Interface. Creates a Promise with the `reject` and `resolve` functions placed as methods on the promise object itself."
 	},
 	"deno_async_deferred_test": {
 		"prefix": "deno_async_deferred_test",

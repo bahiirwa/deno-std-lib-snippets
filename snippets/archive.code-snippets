@@ -32,11 +32,6 @@
 		"body": [
             "import { ${1:Tar} } from 'https://deno.land/std/archive/tar_test.ts'"
 		],
-		"description": [
-			"Archive Module.",
-			"Create a tar archive in memory containing output.txt and dir/tar.ts. Read and deflate a tar archive containing output.txt. ",
-			"",
-			"Run test: deno run --allow-read archive/tar_test.ts"
-		]
+		"description": "Archive Module. Create a tar archive in memory containing output.txt and dir/tar.ts. Read and deflate a tar archive containing output.txt. Run test: deno run --allow-read archive/tar_test.ts"
     }
 }

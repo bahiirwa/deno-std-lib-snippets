@@ -25,13 +25,6 @@
 		"body": [
             "import { hasOwnProperty } from 'https://deno.land/std/_util/has_own_property.ts'"
 		],
-		"description": [
-			"Utility Module.",
-			"Determines whether an object has a property with the specified name. Avoid calling prototype builtin `hasOwnProperty` for two reasons:",
-			"",
-			"1. `hasOwnProperty` is defined on the object as something else.",
-			"",
-			"2. The object doesn't inherit from `Object.prototype`."
-		]
+		"description": "Utility Module. Determines whether an object has a property with the specified name. Avoid calling prototype builtin `hasOwnProperty` for two reasons: 1. `hasOwnProperty` is defined on the object as something else. 2. The object doesn't inherit from `Object.prototype`."
     }
 }

@@ -4,59 +4,41 @@
 		"body": [
             "import { ${1:parseDate}, ${2:parseDateTime}, ${3:dayOfYear}, ${4:currentDayOfYear} } from 'https://deno.land/std/datetime/mod.ts'"
 		],
-		"description": [
-			"Datetime Module.",
-			"Simple helper to help parse date strings into Date, with additional functions."
-		]
+		"description": "Datetime Module. Simple helper to help parse date strings into Date, with additional functions."
     },
     "deno_datetime_test": {
 		"prefix": "deno_datetime_test",
 		"body": [
             "import { ${1:*} } from 'https://deno.land/std/datetime/test.ts'"
 		],
-		"description": [
-			"Datetime Module.",
-			"Test date strings into Date, with additional functions."
-		]
+		"description": "Datetime Module. Test date strings into Date, with additional functions."
     },
     "deno_datetime_dayOfYear": {
 		"prefix": "deno_datetime_dayOfYear",
 		"body": [
             "import { dayOfYear } from 'https://deno.land/std/datetime/mod.ts'"
 		],
-		"description": [
-			"Datetime Module.",
-			"Returns the number of the day in the year."
-		]
+		"description": "Datetime Module. Returns the number of the day in the year."
     },
     "deno_datetime_currentDayOfYear": {
 		"prefix": "deno_datetime_currentDayOfYear",
 		"body": [
             "import { currentDayOfYear } from 'https://deno.land/std/datetime/mod.ts'"
 		],
-		"description": [
-			"Datetime Module.",
-			"Returns the number of the current day in the year."
-		]
+		"description": "Datetime Module. Returns the number of the current day in the year."
     },
     "deno_datetime_parseDate": {
 		"prefix": "deno_datetime_parseDate",
 		"body": [
             "import { parseDate } from 'https://deno.land/std/datetime/mod.ts'"
 		],
-		"description": [
-			"Datetime Module.",
-			"Take an input string and a format to parse the date. Supported formats are exported in DateFormat."
-		]
+		"description": "Datetime Module. Take an input string and a format to parse the date. Supported formats are exported in DateFormat."
     },
     "deno_datetime_parseDateTime": {
 		"prefix": "deno_datetime_parseDateTime",
 		"body": [
             "import { parseDateTime } from 'https://deno.land/std/datetime/mod.ts'"
 		],
-		"description": [
-			"Datetime Module.",
-			"Take an input string and a format to parse the dateTime. Supported formats are exported in DateTimeFormat."
-		]
+		"description": "Datetime Module. Take an input string and a format to parse the dateTime. Supported formats are exported in DateTimeFormat."
     }
 }
