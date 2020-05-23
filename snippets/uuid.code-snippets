@@ -1,37 +1,37 @@
 {
-    "deno_uiid_common": {
-		"prefix": "deno_uiid_common",
+    "deno_uuid_common": {
+		"prefix": "deno_uuid_common",
 		"body": [
             "import { ${1:bytesToUuid}, ${2:uuidToBytes}, ${3:stringToBytes}, ${4:createBuffer} } from 'https://deno.land/std/uuid/_common.ts'"
 		],
-		"description": "uiid module: Common UUIDs."
+		"description": "uuid module: Common UUIDs."
     },
-    "deno_uiid_test": {
-		"prefix": "deno_uiid_test",
+    "deno_uuid_test": {
+		"prefix": "deno_uuid_test",
 		"body": [
             "import { ${1:*} } from 'https://deno.land/std/uuid/test.ts'"
 		],
-		"description": "uiid module: Support for version 1, 3, 4, and 5 UUIDs."
+		"description": "uuid module: Support for version 1, 3, 4, and 5 UUIDs."
     },
-    "deno_v1_uiid": {
-		"prefix": "deno_v1_uiid",
+    "deno_v1_uuid": {
+		"prefix": "deno_v1_uuid",
 		"body": [
             "import { ${1:v1} } from 'https://deno.land/std/uuid/v1.ts'"
 		],
-		"description": "uiid module: Support for version 1, 3, 4, and 5 UUIDs."
+		"description": "uuid module: Support for version 1, 3, 4, and 5 UUIDs."
     },
-    "deno_v4_uiid": {
-		"prefix": "deno_v4_uiid",
+    "deno_v4_uuid": {
+		"prefix": "deno_v4_uuid",
 		"body": [
             "import { ${1:v4} } from 'https://deno.land/std/uuid/v4.ts'"
 		],
-		"description": "uiid module: Support for version 1, 3, 4, and 5 UUIDs."
+		"description": "uuid module: Support for version 1, 3, 4, and 5 UUIDs."
     },
-    "deno_v5_uiid": {
-		"prefix": "deno_v5_uiid",
+    "deno_v5_uuid": {
+		"prefix": "deno_v5_uuid",
 		"body": [
             "import { ${1:v5} } from 'https://deno.land/std/uuid/v5.ts'"
 		],
-		"description": "uiid module: Support for version 1, 3, 4, and 5 UUIDs."
+		"description": "uuid module: Support for version 1, 3, 4, and 5 UUIDs."
     },
 }
