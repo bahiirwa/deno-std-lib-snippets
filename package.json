@@ -64,6 +64,10 @@
             },
             {
                 "language": "typescript",
+                "path": "./snippets/node.code-snippets"
+            },
+            {
+                "language": "typescript",
                 "path": "./snippets/path.code-snippets"
             },
             {

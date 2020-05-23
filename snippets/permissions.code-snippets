@@ -1,13 +1,13 @@
 {
-    "deno_signal_mod": {
-		"prefix": "deno_signal_mod",
+    "deno_permissions_signal_mod": {
+		"prefix": "deno_permissions_signal_mod",
 		"body": [
             "import { ${1:grant}, ${2:grantOrThrow} } from 'https://deno.land/std/permissions/mod.ts'"
 		],
 		"description": "Permissions Module: Module"
     },
-    "deno_signal_test": {
-		"prefix": "deno_signal_test",
+    "deno_permissions_signal_test": {
+		"prefix": "deno_permissions_signal_test",
 		"body": [
             "import { ${1:*} } from 'https://deno.land/std/permissions/test.ts'"
 		],

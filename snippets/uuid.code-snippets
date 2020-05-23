@@ -13,22 +13,22 @@
 		],
 		"description": "uuid module: Support for version 1, 3, 4, and 5 UUIDs."
     },
-    "deno_v1_uuid": {
-		"prefix": "deno_v1_uuid",
+    "deno_uuid_v1": {
+		"prefix": "deno_uuid_v1",
 		"body": [
             "import { ${1:v1} } from 'https://deno.land/std/uuid/v1.ts'"
 		],
 		"description": "uuid module: Support for version 1, 3, 4, and 5 UUIDs."
     },
-    "deno_v4_uuid": {
-		"prefix": "deno_v4_uuid",
+    "deno_uuid_v4": {
+		"prefix": "deno_uuid_v4",
 		"body": [
             "import { ${1:v4} } from 'https://deno.land/std/uuid/v4.ts'"
 		],
 		"description": "uuid module: Support for version 1, 3, 4, and 5 UUIDs."
     },
-    "deno_v5_uuid": {
-		"prefix": "deno_v5_uuid",
+    "deno_uuid_v5": {
+		"prefix": "deno_uuid_v5",
 		"body": [
             "import { ${1:v5} } from 'https://deno.land/std/uuid/v5.ts'"
 		],
