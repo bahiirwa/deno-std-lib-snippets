@@ -12,8 +12,6 @@ Steps to take in the build process.
     - [ ] hash
     - [ ] http
     - [ ] io
-    - [ ] log
-    - [ ] mime
     - [ ] node/_fs
     - [ ] node/_util
     - [ ] node/tests

@@ -4,7 +4,11 @@ All notable changes to the "deno-std-lib-snippets" extension will be documented 
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
-### 0.0.6 [24.05.2020]
+### 0.0.7 [24.05.2020]
+
+- Add more snippets ( Modules: node, mime, log ).
+
+### 0.0.6 [23.05.2020]
 
 - Add more snippets ( Modules: Testing, signal, permissions, path ).
 - Descriptions fix. JSON doesn't support multilines. Use one liners only.

@@ -16,7 +16,7 @@ Install via Extension Marketplace
 
 ## Features
 
-Autocomplete for 14 Modules using `deno_`.
+Autocomplete for Modules below using tag: `deno_`.
 
 Module triggers:
 
@@ -27,6 +27,8 @@ Module triggers:
 | bytes        | deno_bytes_       |
 | datetime     | deno_datetime_    |
 | encoding     | deno_encoding_    |
+| log          | deno_log_         |
+| mime         | deno_mime_        |
 | node         | deno_node_        |
 | path         | deno_path_        |
 | permissions  | deno_permissions_ |
@@ -53,7 +55,11 @@ Known issues at available at the [Github Repo](https://github.com/bahiirwa/deno-
 
 All notable changes to the "Deno Standard Library Snippets" extension will be documented in here and in the details found in the changelog file.
 
-### 0.0.6 [24.05.2020]
+### 0.0.7 [24.05.2020]
+
+- Add more snippets.
+
+### 0.0.6 [23.05.2020]
 
 - Add more snippets.
 - Descriptions fix, use liners only.

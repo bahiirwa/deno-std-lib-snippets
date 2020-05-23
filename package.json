@@ -25,7 +25,9 @@
     ],
     "keywords": [
         "Deno",
+        "Deno Modules",
         "Deno Standard Library",
+        "Deno Standard Modules Library",
         "std lib"
     ],
     "contributes": {
@@ -61,6 +63,14 @@
             {
                 "language": "toml",
                 "path": "./snippets/toml/encoding-test.code-snippets"
+            },
+            {
+                "language": "typescript",
+                "path": "./snippets/log.code-snippets"
+            },
+            {
+                "language": "typescript",
+                "path": "./snippets/mime.code-snippets"
             },
             {
                 "language": "typescript",

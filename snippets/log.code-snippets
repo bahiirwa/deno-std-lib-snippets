@@ -1,0 +1,51 @@
+{
+    "deno_log_handlers": {
+		"prefix": "deno_log_handlers",
+		"body": [
+            "import { ${1:BaseHandler}, ${2:ConsoleHandler}, ${3:WriterHandler}, ${4:FileHandler}, ${5:RotatingFileHandler} } from 'https://deno.land/std/log/handlers.ts'"
+		],
+		"description": "log Module: handlers Module"
+    },
+    "deno_log_levels": {
+		"prefix": "deno_log_levels",
+		"body": [
+            "import { ${1:LogLevels}, ${2:LogLevelNames}, ${3:LevelName}, ${4:getLevelByName}, ${5:getLevelName} } from 'https://deno.land/std/log/levels.ts'"
+		],
+		"description": "log Module: levels Module"
+    },
+    "deno_log_logger": {
+		"prefix": "deno_log_logger",
+		"body": [
+            "import { ${1:LogRecord}, ${2:Logger} } from 'https://deno.land/std/log/logger.ts'"
+		],
+		"description": "log Module: logger Module"
+    },
+    "deno_log_mod": {
+		"prefix": "deno_log_mod",
+		"body": [
+            "import { ${1:LogLevels}, ${2:LoggerConfig}, ${3:LogConfig}, ${4:handlers}, ${5:getLogger}, ${6:debug}, ${7:info}, ${8:warning}, ${4:error}, ${5:critical} } from 'https://deno.land/std/log/mod.ts'"
+		],
+		"description": "log Module: Module"
+    },
+    "deno_log_handlers_test": {
+		"prefix": "deno_log_handlers_test",
+		"body": [
+            "import { ${1:*} } from 'https://deno.land/std/log/handlers_test.ts'"
+		],
+		"description": "log Module: Handlers Test."
+    },
+    "deno_log_logger_test": {
+		"prefix": "deno_log_logger_test",
+		"body": [
+            "import { ${1:*} } from 'https://deno.land/std/log/logger_test.ts'"
+		],
+		"description": "log Module: logger Test."
+    },
+    "deno_log_mod_test": {
+		"prefix": "deno_log_mod_test",
+		"body": [
+            "import { ${1:*} } from 'https://deno.land/std/log/mod_test.ts'"
+		],
+		"description": "log Module Test."
+    },
+}

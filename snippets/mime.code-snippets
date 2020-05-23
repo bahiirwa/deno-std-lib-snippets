@@ -1,0 +1,37 @@
+{
+    "deno_mime_testdata_sample": {
+		"prefix": "deno_mime_testdata_sample",
+		"body": [
+            "import 'https://deno.land/std/mime/testdata/sample.txt'"
+		],
+		"description": "Mime Module: Testdata sample txt file"
+    },
+    "deno_mime_mod": {
+		"prefix": "deno_mime_mod",
+		"body": [
+            "import { ${1:*} } from 'https://deno.land/std/mime/mod.ts'"
+		],
+		"description": "Mime Module: Main Module"
+    },
+    "deno_mime_multipart": {
+		"prefix": "deno_mime_multipart",
+		"body": [
+            "import { ${1:FormFile}, ${2:isFormFile}, ${3:matchAfterPrefix}, ${4:scanUntilBoundary}, ${5:MultipartFormData}, ${6:MultipartReader}, ${7:MultipartWriter} } from 'https://deno.land/std/mime/multipart.ts'"
+		],
+		"description": "Mime Module: Main Module"
+    },
+    "deno_mime_multipart_test": {
+		"prefix": "deno_mime_multipart_test",
+		"body": [
+            "import { ${1:*} } from 'https://deno.land/std/mime/multipart_test.ts'"
+		],
+		"description": "Mime Module: Test."
+    },
+    "deno_mime_test": {
+		"prefix": "deno_mime_test",
+		"body": [
+            "import { ${1:*} } from 'https://deno.land/std/Mime/test.ts'"
+		],
+		"description": "Mime Module: Test."
+    },
+}
