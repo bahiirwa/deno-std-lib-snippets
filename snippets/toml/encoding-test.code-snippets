@@ -1,6 +1,6 @@
 {
-    "deno_crlf_testdata": {
-		"prefix": "deno_crlf_testdata",
+    "deno_encoding_testdata_crlf": {
+		"prefix": "deno_encoding_testdata_crlf",
 		"body": [
             "import { ${1:*} } from 'https://deno.land/std/encoding/testdata/CRLF.toml'"
 		],
@@ -8,8 +8,8 @@
 			"Encoding Module: CRLF Testdata."
 		]
     },
-    "deno_arrayTable_testdata": {
-		"prefix": "deno_arrayTable_testdata",
+    "deno_encoding_testdata_arrayTable": {
+		"prefix": "deno_encoding_testdata_arrayTable",
 		"body": [
             "import { ${1:*} } from 'https://deno.land/std/encoding/testdata/arrayTable.toml'"
 		],
@@ -17,8 +17,8 @@
 			"Encoding Module: arrayTable Testdata."
 		]
     },
-    "deno_arrays_testdata": {
-		"prefix": "deno_arrays_testdata",
+    "deno_encoding_testdata_arrays": {
+		"prefix": "deno_encoding_testdata_arrays",
 		"body": [
             "import { ${1:*} } from 'https://deno.land/std/encoding/testdata/arrays.toml'"
 		],
@@ -26,8 +26,8 @@
 			"Encoding Module: arrays Testdata."
 		]
     },
-    "deno_boolean_testdata": {
-		"prefix": "deno_boolean_testdata",
+    "deno_encoding_testdata_boolean": {
+		"prefix": "deno_encoding_testdata_boolean",
 		"body": [
             "import { ${1:*} } from 'https://deno.land/std/encoding/testdata/boolean.toml'"
 		],
@@ -35,8 +35,8 @@
 			"Encoding Module: boolean Testdata."
 		]
     },
-    "deno_cargo_testdata": {
-		"prefix": "deno_cargo_testdata",
+    "deno_encoding_testdata_cargo": {
+		"prefix": "deno_encoding_testdata_cargo",
 		"body": [
             "import { ${1:*} } from 'https://deno.land/std/encoding/testdata/cargo.toml'"
 		],
@@ -44,8 +44,8 @@
 			"Encoding Module: cargo Testdata."
 		]
     },
-    "deno_cargoTest_testdata": {
-		"prefix": "deno_cargoTest_testdata",
+    "deno_encoding_testdata_cargoTest": {
+		"prefix": "deno_encoding_testdata_cargoTest",
 		"body": [
             "import { ${1:*} } from 'https://deno.land/std/encoding/testdata/cargoTest.toml'"
 		],
@@ -53,8 +53,8 @@
 			"Encoding Module: cargoTest Testdata."
 		]
     },
-    "deno_datetime_testdata": {
-		"prefix": "deno_datetime_testdata",
+    "deno_encoding_testdata_datetime": {
+		"prefix": "deno_encoding_testdata_datetime",
 		"body": [
             "import { ${1:*} } from 'https://deno.land/std/encoding/testdata/datetime.toml'"
 		],
@@ -62,8 +62,8 @@
 			"Encoding Module: datetime Testdata."
 		]
     },
-    "deno_float_testdata": {
-		"prefix": "deno_float_testdata",
+    "deno_encoding_testdata_float": {
+		"prefix": "deno_encoding_testdata_float",
 		"body": [
             "import { ${1:*} } from 'https://deno.land/std/encoding/testdata/float.toml'"
 		],
@@ -71,8 +71,8 @@
 			"Encoding Module: float Testdata."
 		]
     },
-    "deno_inlineTable_testdata": {
-		"prefix": "deno_inlineTable_testdata",
+    "deno_encoding_testdata_inlineTable": {
+		"prefix": "deno_encoding_testdata_inlineTable",
 		"body": [
             "import { ${1:*} } from 'https://deno.land/std/encoding/testdata/inlineTable.toml'"
 		],
@@ -80,8 +80,8 @@
 			"Encoding Module: inlineTable Testdata."
 		]
     },
-    "deno_integer_testdata": {
-		"prefix": "deno_integer_testdata",
+    "deno_encoding_testdata_integer": {
+		"prefix": "deno_encoding_testdata_integer",
 		"body": [
             "import { ${1:*} } from 'https://deno.land/std/encoding/testdata/integer.toml'"
 		],
@@ -89,8 +89,8 @@
 			"Encoding Module: integer Testdata."
 		]
     },
-    "deno_simple_testdata": {
-		"prefix": "deno_simple_testdata",
+    "deno_encoding_testdata_simple": {
+		"prefix": "deno_encoding_testdata_simple",
 		"body": [
             "import { ${1:*} } from 'https://deno.land/std/encoding/testdata/simple.toml'"
 		],
@@ -98,8 +98,8 @@
 			"Encoding Module: simple Testdata."
 		]
     },
-    "deno_string_testdata": {
-		"prefix": "deno_string_testdata",
+    "deno_encoding_testdata_string": {
+		"prefix": "deno_encoding_testdata_string",
 		"body": [
             "import { ${1:*} } from 'https://deno.land/std/encoding/testdata/string.toml'"
 		],
@@ -107,8 +107,8 @@
 			"Encoding Module: string Testdata."
 		]
     },
-    "deno_table_testdata": {
-		"prefix": "deno_table_testdata",
+    "deno_encoding_testdata_table": {
+		"prefix": "deno_encoding_testdata_table",
 		"body": [
             "import { ${1:*} } from 'https://deno.land/std/encoding/testdata/table.toml'"
 		],

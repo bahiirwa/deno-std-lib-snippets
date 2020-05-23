@@ -1,6 +1,6 @@
 {
-    "deno_deferred": {
-		"prefix": "deno_deferred",
+    "deno_async_deferred": {
+		"prefix": "deno_async_deferred",
 		"body": [
             "import { ${1:deferred}, ${2:Deferred} } from 'https://deno.land/std/async/deferred.ts'"
 		],
@@ -9,36 +9,36 @@
 			"Creates a Promise with the `reject` and `resolve` functions placed as methods on the promise object itself."
 		]
 	},
-	"deno_deferred_test": {
-		"prefix": "deno_deferred_test",
+	"deno_async_deferred_test": {
+		"prefix": "deno_async_deferred_test",
 		"body": [
             "import { ${1:deferred_test} } from 'https://deno.land/std/async/deferred_test.ts'"
 		],
 		"description": "Async Module"
     },
-	"deno_delay": {
-		"prefix": "deno_delay",
+	"deno_async_delay": {
+		"prefix": "deno_async_delay",
 		"body": [
             "import { ${1:delay} } from 'https://deno.land/std/async/delay.ts'"
 		],
 		"description": "Async Module: Exports function - delay"
     },
-	"deno_async_mod": {
-		"prefix": "deno_async_mod",
+	"deno_async_async_mod": {
+		"prefix": "deno_async_async_mod",
 		"body": [
             "import { ${1:*} } from 'https://deno.land/std/async/mod.ts'"
 		],
 		"description": "Async Module: Exports all from deferred.ts, delay.ts. mux_async_iterator.ts"
     },
-	"deno_mux_async_iterator": {
-		"prefix": "deno_mux_async_iterator",
+	"deno_async_mux_async_iterator": {
+		"prefix": "deno_async_mux_async_iterator",
 		"body": [
             "import { ${1:MuxAsyncIterator} } from 'https://deno.land/std/async/mux_async_iterator.ts'"
 		],
 		"description": "Async Module: Exports Class MuxAsyncIterator."
     },
-	"deno_mux_async_iterator_test": {
-		"prefix": "deno_mux_async_iterator_test",
+	"deno_async_mux_async_iterator_test": {
+		"prefix": "deno_async_mux_async_iterator_test",
 		"body": [
             "import { ${1:*} } from 'https://deno.land/std/async/mux_async_iterator_test.ts'"
 		],

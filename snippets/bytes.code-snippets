@@ -1,6 +1,6 @@
 {
-    "deno_byte_mod": {
-		"prefix": "deno_byte_mod",
+    "deno_bytes_mod": {
+		"prefix": "deno_bytes_mod",
 		"body": [
             "import { ${1:findIndex}, ${2:findLastIndex}, ${3:equal}, ${4:hasPrefix}, ${5:repeat}, ${6:concat}, } from 'https://deno.land/std/bytes/mod.ts'"
 		],
@@ -8,8 +8,8 @@
 			"Bytes Modules.",
 			"Bytes module is made to provide helpers to manipulation of bytes slice."]
 	},
-    "deno_findIndex": {
-		"prefix": "deno_findIndex",
+    "deno_bytes_findIndex": {
+		"prefix": "deno_bytes_findIndex",
 		"body": [
             "import { findIndex } from 'https://deno.land/std/bytes/mod.ts'"
 		],
@@ -19,8 +19,8 @@
 			"Bytes module is made to provide helpers to manipulation of bytes slice."
 		]
 	},
-    "deno_findLastIndex": {
-		"prefix": "deno_findLastIndex",
+    "deno_bytes_findLastIndex": {
+		"prefix": "deno_bytes_findLastIndex",
 		"body": [
             "import { findLastIndex } from 'https://deno.land/std/bytes/mod.ts'"
 		],
@@ -29,8 +29,8 @@
 			"Find last index of binary pattern from given binary array.",
 			"Bytes module is made to provide helpers to manipulation of bytes slice."]
 	},
-    "deno_equal": {
-		"prefix": "deno_equal",
+    "deno_bytes_equal": {
+		"prefix": "deno_bytes_equal",
 		"body": [
             "import { equal } from 'https://deno.land/std/bytes/mod.ts'"
 		],
@@ -39,8 +39,8 @@
 			"Check whether given binary arrays are equal to each other.",
 			"Bytes module is made to provide helpers to manipulation of bytes slice."]
 	},
-    "deno_hasPrefix": {
-		"prefix": "deno_hasPrefix",
+    "deno_bytes_hasPrefix": {
+		"prefix": "deno_bytes_hasPrefix",
 		"body": [
             "import { hasPrefix } from 'https://deno.land/std/bytes/mod.ts'"
 		],
@@ -49,8 +49,8 @@
 			"Check whether binary array has binary prefix.",
 			"Bytes module is made to provide helpers to manipulation of bytes slice."]
 	},
-    "deno_repeat": {
-		"prefix": "deno_repeat",
+    "deno_bytes_repeat": {
+		"prefix": "deno_bytes_repeat",
 		"body": [
             "import { repeat } from 'https://deno.land/std/bytes/mod.ts'"
 		],
@@ -59,8 +59,8 @@
 			"Repeat bytes of given binary array and return new one.",
 			"Bytes module is made to provide helpers to manipulation of bytes slice."]
 	},
-    "deno_concat": {
-		"prefix": "deno_concat",
+    "deno_bytes_concat": {
+		"prefix": "deno_bytes_concat",
 		"body": [
             "import { concat } from 'https://deno.land/std/bytes/mod.ts'"
 		],

@@ -1,16 +1,3 @@
 {
-    "deno_node_common": {
-		"prefix": "deno_node_common",
-		"body": [
-            "import { ${1:nodeReader} } from 'https://deno.land/std/node/mod.ts'"
-		],
-		"description": "node Module: Module"
-    },
-    "deno_node_test": {
-		"prefix": "deno_node_test",
-		"body": [
-            "import { ${1:*} } from 'https://deno.land/std/node/test.ts'"
-		],
-		"description": "node Module: Test."
-    },
+    
 }

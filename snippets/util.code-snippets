@@ -6,22 +6,22 @@
 		],
 		"description": "Get current version of Deno"
     },
-    "deno_deep_assign": {
-		"prefix": "deno_deep_assign",
+    "deno_util_deep_assign": {
+		"prefix": "deno_util_deep_assign",
 		"body": [
             "import { ${1:deepAssign} } from 'https://deno.land/std/_util/deep_assign.ts'"
 		],
 		"description": "Utility Module"
     },
-    "deno_deep_assign_test": {
-		"prefix": "deno_deep_assign_test",
+    "deno_util_deep_assign_test": {
+		"prefix": "deno_util_deep_assign_test",
 		"body": [
             "import { ${1:deepAssignTest} } from 'https://deno.land/std/_util/deep_assign_test.ts'"
 		],
 		"description": "Utility Module"
     },
-    "deno_has_own_property": {
-		"prefix": "deno_has_own_property",
+    "deno_util_has_own_property": {
+		"prefix": "deno_util_has_own_property",
 		"body": [
             "import { hasOwnProperty } from 'https://deno.land/std/_util/has_own_property.ts'"
 		],

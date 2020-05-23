@@ -1,6 +1,6 @@
 {
-    "deno_datetime": {
-		"prefix": "deno_datetime",
+    "deno_datetime_mod": {
+		"prefix": "deno_datetime_mod",
 		"body": [
             "import { ${1:parseDate}, ${2:parseDateTime}, ${3:dayOfYear}, ${4:currentDayOfYear} } from 'https://deno.land/std/datetime/mod.ts'"
 		],
@@ -19,8 +19,8 @@
 			"Test date strings into Date, with additional functions."
 		]
     },
-    "deno_dayOfYear": {
-		"prefix": "deno_dayOfYear",
+    "deno_datetime_dayOfYear": {
+		"prefix": "deno_datetime_dayOfYear",
 		"body": [
             "import { dayOfYear } from 'https://deno.land/std/datetime/mod.ts'"
 		],
@@ -29,8 +29,8 @@
 			"Returns the number of the day in the year."
 		]
     },
-    "deno_currentDayOfYear": {
-		"prefix": "deno_currentDayOfYear",
+    "deno_datetime_currentDayOfYear": {
+		"prefix": "deno_datetime_currentDayOfYear",
 		"body": [
             "import { currentDayOfYear } from 'https://deno.land/std/datetime/mod.ts'"
 		],
@@ -39,8 +39,8 @@
 			"Returns the number of the current day in the year."
 		]
     },
-    "deno_parseDate": {
-		"prefix": "deno_parseDate",
+    "deno_datetime_parseDate": {
+		"prefix": "deno_datetime_parseDate",
 		"body": [
             "import { parseDate } from 'https://deno.land/std/datetime/mod.ts'"
 		],
@@ -49,8 +49,8 @@
 			"Take an input string and a format to parse the date. Supported formats are exported in DateFormat."
 		]
     },
-    "deno_parseDateTime": {
-		"prefix": "deno_parseDateTime",
+    "deno_datetime_parseDateTime": {
+		"prefix": "deno_datetime_parseDateTime",
 		"body": [
             "import { parseDateTime } from 'https://deno.land/std/datetime/mod.ts'"
 		],

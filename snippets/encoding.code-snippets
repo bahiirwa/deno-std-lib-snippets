@@ -1,41 +1,41 @@
 {
-    "deno_YAMLError": {
-		"prefix": "deno_YAMLError",
+    "deno_encoding_YAMLError": {
+		"prefix": "deno_encoding_YAMLError",
 		"body": [
             "import { ${1:YAMLError } } from 'https://deno.land/std/encoding/_yaml/error.ts'"
 		],
 		"description": "Encoding Module"
     },
-    "deno_Mark": {
-		"prefix": "deno_Mark",
+    "deno_encoding_Mark": {
+		"prefix": "deno_encoding_Mark",
 		"body": [
             "import { ${1:Mark } } from 'https://deno.land/std/encoding/_yaml/mark.ts'"
 		],
 		"description": "Encoding Module"
     },
-    "deno_parse": {
-		"prefix": "deno_parse",
+    "deno_encoding_parse": {
+		"prefix": "deno_encoding_parse",
 		"body": [
             "import { ${1:ParseOptions}, ${2:parse}, ${3:parseAll} } from 'https://deno.land/std/encoding/_yaml/parse.ts'"
 		],
 		"description": "Encoding Module. Parses `content` as single YAML document."
     },
-    "deno_schema": {
-		"prefix": "deno_schema",
+    "deno_encoding_schema": {
+		"prefix": "deno_encoding_schema",
 		"body": [
             "import { ${1:TypeMap}, ${2:Schema}, ${3:SchemaDefinition} } from 'https://deno.land/std/encoding/_yaml/schema.ts'"
 		],
 		"description": "Encoding Module. Parses `content` as single YAML document."
     },
-    "deno_state": {
-		"prefix": "deno_state",
+    "deno_encoding_state": {
+		"prefix": "deno_encoding_state",
 		"body": [
             "import { ${1:State} } from 'https://deno.land/std/encoding/_yaml/state.ts'"
 		],
 		"description": "Encoding Module. Abstract class State."
     },
-    "deno_stringify": {
-		"prefix": "deno_stringify",
+    "deno_encoding_stringify": {
+		"prefix": "deno_encoding_stringify",
 		"body": [
             "import { ${1:DumpOptions}, ${2:stringify} } from 'https://deno.land/std/encoding/_yaml/stringify.ts'"
 		],

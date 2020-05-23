@@ -1,34 +1,34 @@
 {
-    "deno_testdata_txt_test": {
-		"prefix": "deno_testdata_txt_test",
+    "deno_archive_testdata_txt_test": {
+		"prefix": "deno_archive_testdata_txt_test",
 		"body": [
             "import { ${1:deepAssign} } from 'https://deno.land/std/archive/testdata/example.txt'"
 		],
 		"description": "Archive Module"
     },
-    "deno_tar_untar": {
-		"prefix": "deno_tar_untar",
+    "deno_archive_tar_untar": {
+		"prefix": "deno_archive_tar_untar",
 		"body": [
             "import { ${1:Tar}, ${2:Untar} } from 'https://deno.land/std/archive/tar.ts'"
 		],
 		"description": "Archive Module"
     },
-    "deno_tar": {
-		"prefix": "deno_tar",
+    "deno_archive_tar": {
+		"prefix": "deno_archive_tar",
 		"body": [
             "import { Tar } from 'https://deno.land/std/archive/tar.ts'"
 		],
 		"description": "Archive Module"
     },
-    "deno_untar": {
-		"prefix": "deno_untar",
+    "deno_archive_untar": {
+		"prefix": "deno_archive_untar",
 		"body": [
             "import { Untar } from 'https://deno.land/std/archive/tar.ts'"
 		],
 		"description": "Archive Module"
     },
-    "deno_tar_test": {
-		"prefix": "deno_tar_test",
+    "deno_archive_tar_test": {
+		"prefix": "deno_archive_tar_test",
 		"body": [
             "import { ${1:Tar} } from 'https://deno.land/std/archive/tar_test.ts'"
 		],
