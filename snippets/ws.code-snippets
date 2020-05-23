@@ -1,0 +1,30 @@
+{
+    "deno_ws_test": {
+		"prefix": "deno_ws_test",
+		"body": [
+            "import { ${1:*} } from 'https://deno.land/std/ws/test.ts'"
+		],
+		"description": "Test. ws module: is made to provide helpers to create WebSocket client/server."
+    },
+    "deno_ws_mod": {
+        "prefix": "deno_ws_mod",
+        "body": [
+            "import { ${1:OpCode}, ${2:WebSocketEvent}, ${3:WebSocketCloseEvent}, ${4:isWebSocketCloseEvent}, ${5:WebSocketPingEvent}, ${6:isWebSocketPingEvent}, ${7:WebSocketPongEvent}, ${8:isWebSocketPongEvent}, ${9:WebSocketMessage}, ${10:WebSocketFrame}, ${11:WebSocket}, ${12:unmask}, ${13:writeFrame}, ${14:readFrame}, ${15:acceptable}, ${16:createSecAccept}, ${17:acceptWebSocket}, ${18:createSecKey}, ${19:handshake}, ${20:connectWebSocket}, ${21:createWebSocket} } from 'https://deno.land/std/ws/mod.ts'"
+        ],
+        "description": "ws module: is made to provide helpers to create WebSocket client/server."
+    },
+    "deno_ws_example_server": {
+        "prefix": "deno_ws_example_server",
+        "body": [
+            "import { ${1:*} } from 'https://deno.land/std/ws/example_server.ts'"
+        ],
+        "description": "ws module: create WebSocket server."
+    },
+    "deno_ws_example_client": {
+        "prefix": "deno_ws_example_client",
+        "body": [
+            "import { ${1:*} } from 'https://deno.land/std/ws/example_client.ts'"
+        ],
+        "description": "ws module: create WebSocket client/server."
+    },
+}

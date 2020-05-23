@@ -23,8 +23,8 @@
 		],
 		"description": "Async Module: Exports function - delay"
     },
-	"deno_mod": {
-		"prefix": "deno_mod",
+	"deno_async_mod": {
+		"prefix": "deno_async_mod",
 		"body": [
             "import { ${1:*} } from 'https://deno.land/std/async/mod.ts'"
 		],

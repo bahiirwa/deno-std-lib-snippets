@@ -20,7 +20,13 @@ Autocomplete for:
 
 | Added Code   | Number    | Trigger   |
 | ------------ | :-------: | :-------: |
-| Modules      |    6      | deno_     |
+| Modules      |    10     | deno_     |
+
+Module triggers:
+
+| Module       | Trigger   |
+| ------------ | :-------: |
+| uuid      | deno_     |
 
 ## Details
 
@@ -38,17 +44,22 @@ Known issues at available at the [Github Repo](https://github.com/bahiirwa/deno-
 
 All notable changes to the "Deno Standard Library Snippets" extension will be documented in here and in the details found in the changelog file.
 
+### 0.0.4 [23.05.2020]
+
+- Add more snippets.
+- Fix descriptions. Descriptions do not support multilines with []. Only double quotes are allowed.
+
 ### 0.0.3 [21.05.2020]
 
-- Add more snippets
+- Add more snippets.
 
 ### 0.0.2 [21.05.2020]
 
-- Add more snippets
-- Fix .code-snippets file extensions
+- Add more snippets.
+- Fix .code-snippets file extensions.
 
 ### 0.0.1 [21.05.2020]
 
-- Initial release
+- Initial release.
 
 **Enjoy!**

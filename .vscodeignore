@@ -1,5 +1,6 @@
 .vscode/**
 .vscode-test/**
+.github/**
 .gitignore
 packages
 images/deno-logo.svg

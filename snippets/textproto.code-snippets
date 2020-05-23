@@ -1,0 +1,16 @@
+{
+    "deno_textproto_common": {
+		"prefix": "deno_textproto_common",
+		"body": [
+            "import { ${1:TextProtoReader} } from 'https://deno.land/std/textproto/mod.ts'"
+		],
+		"description": "Textproto Module: Module"
+    },
+    "deno_textproto_test": {
+		"prefix": "deno_textproto_test",
+		"body": [
+            "import { ${1:*} } from 'https://deno.land/std/textproto/test.ts'"
+		],
+		"description": "Textproto Module: Test."
+    },
+}

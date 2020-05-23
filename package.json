@@ -61,6 +61,18 @@
             {
                 "language": "toml",
                 "path": "./snippets/toml/encoding-test.code-snippets"
+            },
+            {
+                "language": "typescript",
+                "path": "./snippets/textproto.code-snippets"
+            },
+            {
+                "language": "typescript",
+                "path": "./snippets/uuid.code-snippets"
+            },
+            {
+                "language": "typescript",
+                "path": "./snippets/ws.code-snippets"
             }
         ]
     }
