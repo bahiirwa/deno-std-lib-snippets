@@ -1,0 +1,163 @@
+{
+    "deno_path": {
+		"prefix": "deno_path",
+		"body": [
+            "import { ${1:* as path} } from 'https://deno.land/std/path/mod.ts'"
+		],
+		"description": "Path Module: Main Module."
+    },
+    "deno_path_constants": {
+		"prefix": "deno_path_constants",
+		"body": [
+            "import * as path from 'https://deno.land/std/path/_constants.ts'"
+		],
+		"description": "Path Module: Constants."
+    },
+    "deno_path_globrex": {
+		"prefix": "deno_path_globrex",
+		"body": [
+            "import { ${1:GlobrexOptions}, ${2:GlobrexResult}, ${3:globrex} } as path from 'https://deno.land/std/path/_globrex.ts'"
+		],
+		"description": "Path Module: Globrex."
+    },
+    "deno_path_util": {
+		"prefix": "deno_path_util",
+		"body": [
+            "import { ${1:assertPath}, ${2:isPosixPathSeparator}, ${3:isPathSeparator}, ${4:isWindowsDeviceRoot}, ${5:normalizeString} } as path from 'https://deno.land/std/path/_util.ts'"
+		],
+		"description": "Path Module: Globrex."
+    },
+    "deno_path_common": {
+		"prefix": "deno_path_common",
+		"body": [
+            "import { ${1:common} } as path from 'https://deno.land/std/path/common.ts'"
+		],
+		"description": "Path Module: Globrex."
+    },
+    "deno_path_glob": {
+		"prefix": "deno_path_glob",
+		"body": [
+            "import { ${1:GlobOptions}, ${2:GlobToRegExpOptions}, ${3:globToRegExp}, ${4:isGlob}, ${5:normalizeGlob}, ${6:joinGlobs} } as path from 'https://deno.land/std/path/glob.ts'"
+		],
+		"description": "Path Module: Global Path."
+    },
+    "deno_path_interface": {
+		"prefix": "deno_path_interface",
+		"body": [
+            "import { ${1:ParsedPath}, ${2:FormatInputPathObject} } as path from 'https://deno.land/std/path/interface.ts'"
+		],
+		"description": "Path Module: Interface Path."
+    },
+    "deno_path_posix": {
+		"prefix": "deno_path_posix",
+		"body": [
+            "import { ${1:*} } as path from 'https://deno.land/std/path/posix.ts'"
+		],
+		"description": "Path Module: Posix Path."
+    },
+    "deno_path_separator": {
+		"prefix": "deno_path_separator",
+		"body": [
+            "import { ${1:SEP}, ${2:SEP_PATTERN} } as path from 'https://deno.land/std/path/separator.ts'"
+		],
+		"description": "Path Module: Separator Path."
+    },
+    "deno_path_win32": {
+		"prefix": "deno_path_win32",
+		"body": [
+            "import { ${1:*} } as path from 'https://deno.land/std/path/win32.ts'"
+		],
+		"description": "Path Module: win32 Path."
+    },
+    "deno_path_globrex_test": {
+        "prefix": "deno_path_globrex_test",
+        "body": [
+            "import { ${1:*} } as path from 'https://deno.land/std/path/_globrex_test.ts'"
+        ],
+        "description": "Path Module: Globrex test."
+    },
+    "deno_path_basename_test": {
+        "prefix": "deno_path_basename_test",
+        "body": [
+            "import { ${1:*} } as path from 'https://deno.land/std/path/basename_test.ts'"
+        ],
+        "description": "Path Module: base file name test."
+    },
+    "deno_path_common_test": {
+        "prefix": "deno_path_common_test",
+        "body": [
+            "import { ${1:*} } as path from 'https://deno.land/std/path/common_test.ts'"
+        ],
+        "description": "Path Module: common test."
+    },
+    "deno_path_dirname_test": {
+        "prefix": "deno_path_dirname_test",
+        "body": [
+            "import { ${1:*} } as path from 'https://deno.land/std/path/dirname_test.ts'"
+        ],
+        "description": "Path Module: directory name test."
+    },
+    "deno_path_extname_test": {
+        "prefix": "deno_path_extname_test",
+        "body": [
+            "import { ${1:*} } as path from 'https://deno.land/std/path/extname_test.ts'"
+        ],
+        "description": "Path Module: extension name test."
+    },
+    "deno_path_from_file_url_test": {
+        "prefix": "deno_path_from_file_url_test",
+        "body": [
+            "import { ${1:*} } as path from 'https://deno.land/std/path/from_file_url_test.ts'"
+        ],
+        "description": "Path Module: From file url test."
+    },
+    "deno_path_glob_test": {
+        "prefix": "deno_path_glob_test",
+        "body": [
+            "import { ${1:*} } as path from 'https://deno.land/std/path/glob_test.ts'"
+        ],
+        "description": "Path Module: Global path test."
+    },
+    "deno_path_isabsolute_test": {
+        "prefix": "deno_path_isabsolute_test",
+        "body": [
+            "import { ${1:*} } as path from 'https://deno.land/std/path/isabsolute_test.ts'"
+        ],
+        "description": "Path Module: Is Absolute Path Test."
+    },
+    "deno_path_join_test": {
+        "prefix": "deno_path_join_test",
+        "body": [
+            "import { ${1:*} } as path from 'https://deno.land/std/path/join_test.ts'"
+        ],
+        "description": "Path Module: Join Path Test."
+    },
+    "deno_path_parse_format_test": {
+        "prefix": "deno_path_parse_format_test",
+        "body": [
+            "import { ${1:*} } as path from 'https://deno.land/std/path/parse_format_test.ts'"
+        ],
+        "description": "Path Module: Parse format Test."
+    },
+    "deno_path_relative_test": {
+        "prefix": "deno_path_relative_test",
+        "body": [
+            "import { ${1:*} } as path from 'https://deno.land/std/path/relative_test.ts'"
+        ],
+        "description": "Path Module: Relative Path Test."
+    },
+    "deno_path_resolve_test": {
+        "prefix": "deno_path_resolve_test",
+        "body": [
+            "import { ${1:*} } as path from 'https://deno.land/std/path/resolve_test.ts'"
+        ],
+        "description": "Path Module: Resolve Path Test."
+    },
+    "deno_path_zero_length_strings_test": {
+        "prefix": "deno_path_zero_length_strings_test",
+        "body": [
+            "import { ${1:*} } as path from 'https://deno.land/std/path/zero_length_strings_test.ts'"
+        ],
+        "description": "Path Module: zero length strings Path Test."
+    },
+}

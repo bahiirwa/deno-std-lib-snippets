@@ -24,14 +24,16 @@ Autocomplete for:
 
 Module triggers:
 
-| Module       | Trigger   |
-| ------------ | :-------: |
-| uuid      | deno_     |
+| Module       | Trigger         |
+| ------------ | :-------:       |
+| signal       | deno_signal_    |
+| uuid         | deno_uuid_      |
+| Testing      | deno_testing_   |
 
 ## Details
 
 -   License: GPLv3
--   Version: 0.0.3
+-   Version: 0.0.5
 -   Extension URI: https://github.com/bahiirwa/deno-std-lib-snippets
 
 ## Known Issues
@@ -43,6 +45,10 @@ Known issues at available at the [Github Repo](https://github.com/bahiirwa/deno-
 ## Release Notes
 
 All notable changes to the "Deno Standard Library Snippets" extension will be documented in here and in the details found in the changelog file.
+
+### 0.0.5 [23.05.2020]
+
+- Add more snippets.
 
 ### 0.0.4 [23.05.2020]
 

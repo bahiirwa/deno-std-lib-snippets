@@ -1,0 +1,16 @@
+{
+    "deno_signal_mod": {
+		"prefix": "deno_signal_mod",
+		"body": [
+            "import { ${1:Disposable}, ${2:signal}, ${3:onSignal} } from 'https://deno.land/std/signal/mod.ts'"
+		],
+		"description": "Signal Module: Module"
+    },
+    "deno_signal_test": {
+		"prefix": "deno_signal_test",
+		"body": [
+            "import { ${1:*} } from 'https://deno.land/std/signal/test.ts'"
+		],
+		"description": "Signal Module: Tests"
+    },
+}

@@ -2,7 +2,7 @@
     "name": "deno-std-lib-snippets",
     "displayName": "Deno Standard Library Snippets",
     "description": "Standard library import autocompletions for Deno in VS Code",
-    "version": "0.0.3",
+    "version": "0.0.5",
     "engines": {
         "vscode": "^1.18.0"
     },
@@ -61,6 +61,18 @@
             {
                 "language": "toml",
                 "path": "./snippets/toml/encoding-test.code-snippets"
+            },
+            {
+                "language": "typescript",
+                "path": "./snippets/path.code-snippets"
+            },
+            {
+                "language": "typescript",
+                "path": "./snippets/signal.code-snippets"
+            },
+            {
+                "language": "typescript",
+                "path": "./snippets/testing.code-snippets"
             },
             {
                 "language": "typescript",

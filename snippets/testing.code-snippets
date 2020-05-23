@@ -1,0 +1,52 @@
+{
+    "deno_testing_asserts": {
+		"prefix": "deno_testing_asserts",
+		"body": [
+            "import { ${1:AssertionError}, ${2:equal}, ${3:assert}, ${4:assertEquals}, ${5:assertNotEquals}, ${6:assertStrictEq}, ${7:assertStrContains}, ${8:assertArrayContains}, ${9:assertMatch}, ${10:fail}, ${11:assertThrows}, ${11:assertThrowsAsync}, ${12:unimplemented}, ${13:unreachable} } from 'https://deno.land/std/testing/asserts.ts'"
+		],
+		"description": "Testing module: This module provides a few basic utilities to make testing easier and consistent in Deno."
+    },
+    "deno_testing_bench": {
+		"prefix": "deno_testing_bench",
+		"body": [
+            "import { ${1:BenchmarkTimer}, ${2:BenchmarkFunction}, ${3:BenchmarkDefinition}, ${4:BenchmarkRunOptions}, ${5:bench}, ${6:runBenchmarks}, ${7:runIfMain} } from 'https://deno.land/std/testing/bench.ts'"
+		],
+		"description": "Testing module: This module provides a few basic utilities to make testing easier and consistent in Deno."
+	},
+	"deno_testing_bench_example": {
+		"prefix": "deno_testing_bench_example",
+		"body": [
+            "import { ${1:*} } from 'https://deno.land/std/testing/bench_example.ts'"
+		],
+		"description": "Testing module:: Asserts Tests. This module provides a few basic utilities to make testing easier and consistent in Deno."
+    },
+    "deno_testing_diff": {
+		"prefix": "deno_testing_diff",
+		"body": [
+            "import { ${1:DiffType}, ${2:DiffResult}, ${3:diff} } from 'https://deno.land/std/testing/diff.ts'"
+		],
+		"description": "Testing module: This module provides a few basic utilities to make testing easier and consistent in Deno."
+	},
+	// Tests
+    "deno_testing_asserts_test": {
+		"prefix": "deno_testing_asserts_test",
+		"body": [
+            "import { ${1:*} } from 'https://deno.land/std/testing/asserts_test.ts'"
+		],
+		"description": "Testing module:: Asserts Tests. This module provides a few basic utilities to make testing easier and consistent in Deno."
+	},
+    "deno_testing_bench_test": {
+		"prefix": "deno_testing_bench_test",
+		"body": [
+            "import { ${1:*} } from 'https://deno.land/std/testing/bench_test.ts'"
+		],
+		"description": "Testing module:: Bench Tests. This module provides a few basic utilities to make testing easier and consistent in Deno."
+	},
+	"deno_testing_diff_test": {
+		"prefix": "deno_testing_diff_test",
+		"body": [
+            "import { ${1:*} } from 'https://deno.land/std/testing/diff_test.ts'"
+		],
+		"description": "Testing module: This module provides a few basic utilities to make testing easier and consistent in Deno."
+    },
+}

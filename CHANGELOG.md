@@ -4,6 +4,10 @@ All notable changes to the "deno-std-lib-snippets" extension will be documented 
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+### 0.0.5 [23.05.2020]
+
+- Add more snippets ( Modules: Testing, signal, permissions, path ).
+
 ### 0.0.4 [23.05.2020]
 
 - Add more snippets ( Modules: Encoding - Parital, ws, uuid,textproto )
