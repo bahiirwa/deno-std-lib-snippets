@@ -9,7 +9,7 @@ Steps to take in the build process.
     - [ ] flags - v0.0.9
     - [ ] fmt - v0.0.9
     - [ ] fs - v0.0.9
-    - [ ] hash - v0.0.8
+    - [ ] hash - v0.0.9
     - [ ] node/_fs - v0.0.11
     - [ ] node/_util - v0.0.11
     - [ ] node/tests - v0.0.12

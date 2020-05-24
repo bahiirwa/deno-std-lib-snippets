@@ -27,6 +27,13 @@
         ],
         "description": "http Module: Testdata txt file."
     },
+    "deno_http_testdata_tls": {
+        "prefix": "deno_http_testdata_tls",
+        "body": [
+            "import 'https://deno.land/std/http/testdata/tls'"
+        ],
+        "description": "http Module: Testdata txt file."
+    },
     "deno_http_io": {
         "prefix": "deno_http_io",
         "body": [
