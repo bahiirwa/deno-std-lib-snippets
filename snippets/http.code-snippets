@@ -1,0 +1,128 @@
+{
+    "deno_http_testdata_hello": {
+        "prefix": "deno_http_testdata_hello",
+        "body": [
+            "import 'https://deno.land/std/http/testdata/hello.html'"
+        ],
+        "description": "http Module: Testdata"
+    },
+    "deno_http_testdata_simple_server": {
+        "prefix": "deno_http_testdata_simple_server",
+        "body": [
+            "import 'https://deno.land/std/http/testdata/simple_server.ts'"
+        ],
+        "description": "http Module: Testdata simple server"
+    },
+    "deno_http_testdata_simple_https_server": {
+        "prefix": "deno_http_testdata_simple_https_server",
+        "body": [
+            "import 'https://deno.land/std/http/testdata/simple_https_server.ts'"
+        ],
+        "description": "http Module: Testdata simple https server"
+    },
+    "deno_http_testdata_txt_file": {
+        "prefix": "deno_http_testdata_txt_file",
+        "body": [
+            "import 'https://deno.land/std/http/testdata/test%20file.txt'"
+        ],
+        "description": "http Module: Testdata txt file."
+    },
+    "deno_http_io": {
+        "prefix": "deno_http_io",
+        "body": [
+            "import { ${1:emptyReader}, ${2:bodyReader}, ${3:chunkedBodyReader}, ${4:writeChunkedBody, ${5:writeTrailers}, ${6:writeResponse}, ${7:parseHTTPVersion}, ${8:readRequest} } from 'https://deno.land/std/http/_io.ts'"
+        ],
+        "description": "http Module: IO Module"
+    },
+    "deno_http_mock_conn": {
+        "prefix": "deno_http_mock_conn",
+        "body": [
+            "import { ${1:mockConn} } from 'https://deno.land/std/http/_mock_conn.ts'"
+        ],
+        "description": "http Module: Mock Connection Module"
+    },
+    "deno_http_cookie": {
+        "prefix": "deno_http_cookie",
+        "body": [
+            "import { ${1:Cookies}, ${2:Cookie}, ${3:SameSite}, ${4:getCookies, ${5:setCookie}, ${6:delCookie} } from 'https://deno.land/std/http/cookie.ts'"
+        ],
+        "description": "http Module: Cookie - Helper to manipulate Cookie through ServerRequest and Response."
+    },
+    "deno_http_file_server": {
+        "prefix": "deno_http_file_server",
+        "body": [
+            "import { ${1:serveFile} } from 'https://deno.land/std/http/file_server.ts'"
+        ],
+        "description": "http Module: File Server - A small program for serving local files over HTTP. Use flags --allow-net --allow-read"
+    },
+    "deno_http_http_bench": {
+        "prefix": "deno_http_http_bench",
+        "body": [
+            "import { ${1:*} } from 'https://deno.land/std/http/http_bench.ts'"
+        ],
+        "description": "http Module: http bench Module"
+    },
+    "deno_http_http_status": {
+        "prefix": "deno_http_http_status",
+        "body": [
+            "import { ${1:Status}, ${2:STATUS_TEXT} } from 'https://deno.land/std/http/http_status.ts'"
+        ],
+        "description": "http Module: http status Module"
+    },
+    "deno_http_mod": {
+		"prefix": "deno_http_mod",
+		"body": [
+            "import { ${1:*} } from 'https://deno.land/std/http/mod.ts'"
+		],
+		"description": "http Module: Mod - exports all from cookie, https_status and server modules."
+    },
+    "deno_http_racing_server": {
+		"prefix": "deno_http_racing_server",
+		"body": [
+            "import { ${1:*} } from 'https://deno.land/std/http/racing_server.ts'"
+		],
+		"description": "http Module: server Module"
+    },
+    "deno_http_server": {
+		"prefix": "deno_http_server",
+		"body": [
+            "import { ${1:serve}, ${2:Server}, ${3:ServerRequest}, ${4:HTTPOptions, ${5:listenAndServe}, ${6:HTTPSOptions}, ${7:serveTLS}, ${8:listenAndServeTLS}, ${9:Response} } from 'https://deno.land/std/http/server.ts'"
+		],
+		"description": "http Module: server Module"
+    },
+    "deno_http_io_test": {
+		"prefix": "deno_http_io_test",
+		"body": [
+            "import { ${1:*} } from 'https://deno.land/std/http/_io_test.ts'"
+		],
+		"description": "http Module: IO test."
+    },
+    "deno_http_cookie_test": {
+		"prefix": "deno_http_cookie_test",
+		"body": [
+            "import { ${1:*} } from 'https://deno.land/std/http/cookie_test.ts'"
+		],
+		"description": "http Module: File server test."
+    },
+    "deno_http_file_server_test": {
+		"prefix": "deno_http_file_server_test",
+		"body": [
+            "import { ${1:*} } from 'https://deno.land/std/http/file_server_test.ts'"
+		],
+		"description": "http Module: File server test."
+    },
+    "deno_http_racing_server_test": {
+		"prefix": "deno_http_racing_server_test",
+		"body": [
+            "import { ${1:*} } from 'https://deno.land/std/http/racing_server_test.ts'"
+		],
+		"description": "http Module: Racing server test."
+    },
+    "deno_http_server_test": {
+		"prefix": "deno_http_server_test",
+		"body": [
+            "import { ${1:*} } from 'https://deno.land/std/http/server_test.ts'"
+		],
+		"description": "http Module: server test."
+    },
+}

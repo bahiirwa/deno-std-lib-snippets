@@ -1,20 +1,18 @@
 # Roadmap
 Steps to take in the build process.
 
-## Version 0.0.9
+## Version 0.0.12
 - [ ] Packages without export statement to be imported only.
 - [ ] Add new packages
-    - [ ] encoding/_yaml
-    - [ ] examples
-    - [ ] flags
-    - [ ] fmt
-    - [ ] fs
-    - [ ] hash
-    - [ ] http
-    - [ ] io
-    - [ ] node/_fs
-    - [ ] node/_util
-    - [ ] node/tests
+    - [ ] encoding/_yaml - v0.0.10
+    - [ ] examples - v0.0.9
+    - [ ] flags - v0.0.9
+    - [ ] fmt - v0.0.9
+    - [ ] fs - v0.0.9
+    - [ ] hash - v0.0.8
+    - [ ] node/_fs - v0.0.11
+    - [ ] node/_util - v0.0.11
+    - [ ] node/tests - v0.0.12
 
 ## Version 0.1.0
 - [ ] Descriptions. Give proper descriptions and module meanings

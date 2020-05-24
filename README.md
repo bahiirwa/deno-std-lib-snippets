@@ -42,7 +42,7 @@ Module triggers:
 ## Details
 
 -   License: GPLv3
--   Version: 0.0.7
+-   Version: 0.0.8
 -   Extension URI: https://github.com/bahiirwa/deno-std-lib-snippets
 
 ## Known Issues
@@ -54,6 +54,10 @@ Known issues at available at the [Github Repo](https://github.com/bahiirwa/deno-
 ## Release Notes
 
 All notable changes to the "Deno Standard Library Snippets" extension will be documented in here and in the details found in the changelog file.
+
+### 0.0.8 [24.05.2020]
+
+- Add more snippets.
 
 ### 0.0.7 [24.05.2020]
 

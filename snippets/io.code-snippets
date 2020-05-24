@@ -1,0 +1,86 @@
+{
+    "deno_io_bufio": {
+		"prefix": "deno_io_bufio",
+		"body": [
+            "import { ${1:BufferFullError}, ${2:PartialReadError}, ${3:ReadLineResult}, ${4:BufReader}, ${5:BufWriter}, ${6:BufWriterSync, ${7:readDelim}, ${8:readStringDelim}, ${9:readLines} } from 'https://deno.land/std/io/bufio.ts'"
+		],
+		"description": "IO Module: Bufio Module"
+    },
+    "deno_io_ioutil": {
+		"prefix": "deno_io_ioutil",
+		"body": [
+            "import { ${1:copyN}, ${2:readShort}, ${3:readInt}, ${4:readLong}, ${5:sliceLongToBytes} } from 'https://deno.land/std/io/ioutil.ts'"
+		],
+		"description": "IO Module: Bufio Module"
+    },
+    "deno_io_mod": {
+		"prefix": "deno_io_mod",
+		"body": [
+            "import { ${1:*} } from 'https://deno.land/std/io/mod.ts'"
+		],
+		"description": "IO Module: Main Module. Exports bufio, ioutil, readers and writers modules."
+    },
+    "deno_io_readers": {
+		"prefix": "deno_io_readers",
+		"body": [
+            "import { ${1:StringReader}, ${2:MultiReader} } from 'https://deno.land/std/io/readers.ts'"
+		],
+		"description": "IO Module: Readers modules."
+    },
+    "deno_io_util": {
+		"prefix": "deno_io_util",
+		"body": [
+            "import { ${1:copyBytes}, ${2:charCode},${3:stringsReader}, ${4:tempFile} } from 'https://deno.land/std/io/util.ts'"
+		],
+		"description": "IO Module: util modules."
+    },
+    "deno_io_writers": {
+		"prefix": "deno_io_writers",
+		"body": [
+            "import { ${1:StringWriter} } from 'https://deno.land/std/io/writers.ts'"
+		],
+		"description": "IO Module: writers modules."
+    },
+    "deno_io_bufio_test": {
+		"prefix": "deno_io_bufio_test",
+		"body": [
+            "import { ${1:*} } from 'https://deno.land/std/io/bufio_test.ts'"
+		],
+		"description": "IO Module: Bufio Test."
+    },
+    "deno_io_ioutil_test": {
+		"prefix": "deno_io_ioutil_test",
+		"body": [
+            "import { ${1:OneByteReader}, ${2:HalfReader}, ${3:TimeoutReader} } from 'https://deno.land/std/io/ioutil_test.ts'"
+		],
+		"description": "IO Module: ioutil Test."
+    },
+    "deno_io_iotest": {
+		"prefix": "deno_io_iotest",
+		"body": [
+            "import { ${1:OneByteReader}, ${2:HalfReader}, ${3:TimeoutReader} } from 'https://deno.land/std/io/_iotest.ts'"
+		],
+		"description": "IO Module: Test."
+    },
+    "deno_io_readers_test": {
+		"prefix": "deno_io_readers_test",
+		"body": [
+            "import { ${1:*} } from 'https://deno.land/std/io/readers_test.ts'"
+		],
+		"description": "IO Module: Readers module Test."
+    },
+    "deno_io_util_test": {
+		"prefix": "deno_io_util_test",
+		"body": [
+            "import { ${1:*} } from 'https://deno.land/std/io/util_test.ts'"
+		],
+		"description": "IO Module: Util module Test."
+    },
+    "deno_io_writers_test": {
+		"prefix": "deno_io_writers_test",
+		"body": [
+            "import { ${1:*} } from 'https://deno.land/std/io/writers_test.ts'"
+		],
+		"description": "IO Module: Writers module Test."
+    },
+}
