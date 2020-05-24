@@ -2,7 +2,7 @@
     "name": "deno-std-lib-snippets",
     "displayName": "Deno Standard Library Snippets",
     "description": "Standard library import autocompletions for Deno in VS Code",
-    "version": "0.0.8",
+    "version": "0.0.9",
     "engines": {
         "vscode": "^1.18.0"
     },
