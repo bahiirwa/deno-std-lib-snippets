@@ -32,7 +32,7 @@
         "body": [
             "import 'https://deno.land/std/http/testdata/tls'"
         ],
-        "description": "http Module: Testdata txt file."
+        "description": "http Module: Testdata TLS file."
     },
     "deno_http_io": {
         "prefix": "deno_http_io",
