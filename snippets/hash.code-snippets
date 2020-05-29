@@ -6,6 +6,8 @@
 		],
 		"description": "hash Module: Module"
     },
+
+    // Tests
     "deno_hash_test": {
 		"prefix": "deno_hash_test",
 		"body": [

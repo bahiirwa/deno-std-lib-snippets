@@ -66,6 +66,10 @@
             },
             {
                 "language": "typescript",
+                "path": "./snippets/hash.code-snippets"
+            },
+            {
+                "language": "typescript",
                 "path": "./snippets/io.code-snippets"
             },
             {
